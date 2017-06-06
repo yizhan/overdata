@@ -1,0 +1,20 @@
+.trophy-image-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.trophy-image {
+    width: 120px;
+
+    img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+.empty-space {
+    width: 120px;
+}

@@ -1,0 +1,55 @@
+<!--<ion-header>-->
+    <!--<ion-navbar>-->
+        <!--<ion-title>Home</ion-title>-->
+    <!--</ion-navbar>-->
+<!--</ion-header>-->
+
+<ion-content padding class="home">
+    <h2>Welcome</h2>
+
+    <ion-card>
+        <ion-item>
+            <ion-avatar item-left>
+                <img [src]="userProfile.avatar">
+            </ion-avatar>
+            <h2>{{userProfile.username}}</h2>
+            <div class="playtime">
+                <p class="playtime-label">Playtime</p>
+                <p>Quick: {{userProfile.playtime.quick}}</p>
+                <p>Competitive: {{userProfile.playtime.competitive}}</p>
+            </div>
+
+        </ion-item>
+
+        <!--<img src="img/tracer.jpg">-->
+
+        <ion-card-content>
+            <p>{{userProfile.games}}</p>
+        </ion-card-content>
+    </ion-card>
+
+    <br>
+    <div #chart>
+        <div class="profile-best-hero" *ngFor="let hero of goodHeroStats">
+            <label>{{hero.name}}</label>
+            <img [src]="hero.image" (load)="imageOnload()">
+            <div class="profile-bar">
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!--
+      <p>
+        This starter project comes with simple tabs-based layout for apps
+        that are going to primarily use a Tabbed UI.
+      </p>
+      <p>
+        Take a look at the <code>app/</code> directory to add or change tabs,
+        update any existing page or create new pages.
+      </p>
+    -->
+</ion-content>
