@@ -1,10 +1,10 @@
 import {Component, ViewChild, ElementRef, Renderer} from '@angular/core';
 import {NavController} from 'ionic-angular';
-import {Http, Response} from '@angular/http';
+import {Http} from '@angular/http';
 import {MockedPatchNote} from '../../mocked-data/patch_notes';
 
 @Component({
-    templateUrl: 'build/pages/stats/stats.html',
+    templateUrl: 'stats.html',
     providers: [
         MockedPatchNote]
 })

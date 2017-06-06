@@ -28,7 +28,7 @@ export interface UserProfileInterface {
 
 
 @Component({
-    templateUrl: 'build/pages/trophy/trophy.html',
+    templateUrl: 'trophy.html',
     providers: [MockedProfile, MockedAchievement]
 })
 export class AchievemetPage {

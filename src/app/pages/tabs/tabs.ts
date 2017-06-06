@@ -4,7 +4,7 @@ import {StatsPage} from '../stats/stats';
 import {AchievemetPage} from '../trophy/trophy';
 
 @Component({
-    templateUrl: 'build/pages/tabs/tabs.html'
+    templateUrl: 'tabs.html'
 })
 export class TabsPage {
 
