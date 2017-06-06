@@ -1,6 +1,6 @@
 import {Component, ViewChild, ElementRef, Renderer} from '@angular/core';
 import {NavController} from 'ionic-angular';
-import {Http, Response, HTTP_PROVIDERS} from '@angular/http';
+import {Http, Response} from '@angular/http';
 import {MockedPatchNote} from '../../mocked-data/patch_notes';
 
 @Component({

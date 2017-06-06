@@ -27,7 +27,7 @@ export interface PlaytimeInterface {
 
 export interface CompetitiveInterface {
     rank: number;
-    rank_Img: string;
+    rank_img: string;
 }
 
 export interface UserProfileInterface {
@@ -40,7 +40,7 @@ export interface UserProfileInterface {
 }
 
 @Component({
-    templateUrl: 'build/pages/profile/profile.html',
+    templateUrl: 'profile.html',
     providers: [ListOfheros, MockedHeroStats, MockedProfile]
 })
 export class ProfilePage {

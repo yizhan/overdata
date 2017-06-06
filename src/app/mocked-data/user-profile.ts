@@ -19,14 +19,14 @@ export class MockedProfile {
             "level": 59,
             "games": {
                 "quick": {
-                    "wins": "153",
+                    "wins": 153,
                     "lost": 134,
-                    "played": "287"
+                    "played": 287
                 },
                 "competitive": {
-                    "wins": "44",
+                    "wins": 44,
                     "lost": 38,
-                    "played": "82"
+                    "played": 82
                 }
             },
             "playtime": {
@@ -35,7 +35,7 @@ export class MockedProfile {
             },
             "avatar": "https://blzgdapipro-a.akamaihd.net/game/unlocks/0x02500000000009E7.png",
             "competitive": {
-                "rank": "53",
+                "rank": 53,
                 "rank_img": "https://blzgdapipro-a.akamaihd.net/game/rank-icons/rank-6.png"
             }
         }
