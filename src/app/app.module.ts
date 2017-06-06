@@ -25,6 +25,10 @@ import {AchievemetPage} from "./pages/trophy/trophy";
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+      ProfilePage,
+      StatsPage,
+      TabsPage,
+      AchievemetPage,
   ],
   providers: [
     StatusBar,
